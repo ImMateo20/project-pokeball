@@ -1,0 +1,32 @@
+.contenedor-panel{
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(320deg,rgb(0, 0, 0),rgb(26, 28, 117),rgb(255, 255, 255)); */
+}
+
+:root{
+    --color-Todos: rgb(87, 92, 87);
+    --color-bug: rgb(30, 92, 30);
+    --color-dark: rgb(47, 40, 71);
+    --color-dragon: rgb(59, 104, 139);
+    --color-electric: rgb(182, 206, 63);
+    --color-fairy: rgb(168, 7, 90);
+    --color-fighting: rgb(166, 66, 45);
+    --color-fire: rgb(171, 31, 31);
+    --color-flying: rgb(61, 115, 112);
+    --color-ghost: rgb(67, 27, 127);
+    --color-grass: rgb(47, 117, 47);
+    --color-ground: rgb(122, 77, 49);
+    --color-ice: rgb(92, 143, 146);
+    --color-normal: rgb(119, 91, 101);
+    --color-poison: rgb(76, 29, 91);
+    --color-psychic: rgb(123, 41, 92);
+    --color-rock: rgb(54, 37, 10);
+    --color-steel: rgb(77, 105, 96);
+    --color-water: rgb(50, 22, 178);
+}

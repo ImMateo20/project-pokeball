@@ -1,0 +1,36 @@
+.contenedorPokemones{
+    width: 1230px;
+    margin: 10px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+@media screen and (max-width: 1247px) {
+    .contenedorPokemones{
+        width: 920px;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 937px) {
+    .contenedorPokemones{
+        width: 610px;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 627px) {
+    .contenedorPokemones{
+        width: 300px;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+}

@@ -1,0 +1,40 @@
+p,h1{
+    color: aliceblue;
+}
+
+.imgPokemon{
+    height: 100%;
+    max-height: 100px;
+}
+
+.cardPokemon{
+    display: flex;
+    flex-direction: column;
+    height: 270px;
+    width: 300px;
+    background-color: rgba(65, 65, 92, 0.625);
+    border-radius: 1vmax;
+    align-items: center;
+    position: relative;
+}
+
+.datosPokemon {
+    width: 90%;
+    background: linear-gradient(320deg,rgba(255, 255, 255, 0),rgb(51, 105, 126));
+    border-radius: 1vmax;
+    position: absolute;
+    bottom: 5%;
+}
+
+.tiposPokemon {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+.tipoPokemon{
+    width: fit-content;
+    border-radius: 10vmax;
+    padding: 6px;
+}

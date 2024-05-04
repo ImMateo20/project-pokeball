@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 1vmax;
+    max-width: 1230px;
+    margin: 10px;
+    gap: 1rem;
+    align-items: flex-start;
+    margin: 50px;
+    box-shadow: 0 0 2rem -1rem rgba(0, 0, 0, .5);
+}
+
+.listaTipos{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+button{
+    border: 0;
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+    padding: .5rem;
+    font-weight: bold;
+    border-radius: 100vmax;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .5);
+    transition: .2s;
+}
+
+button:hover{
+    transform: scale(1.5);
+    box-shadow: 0 0 2rem rgba(0, 0, 0, .25);
+}
